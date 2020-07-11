@@ -1,6 +1,8 @@
 {
-  "name": "react-firebase-authentication",
-  "version": "0.1.0",
+  "name": "kayesokua",
+  "description": "portfolio website",
+  "version": "1.0.0",
+  "engines": { "node": "14.5x" },
   "private": true,
   "dependencies": {
     "bootstrap": "^4.5.0",
@@ -20,6 +22,7 @@
     "react-thumbnail": "^1.0.0",
     "reactstrap": "^6.5.0",
     "sass": "^1.26.9"
+    
   },
   "scripts": {
     "start": "react-scripts start",
