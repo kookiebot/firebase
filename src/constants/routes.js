@@ -1,0 +1,12 @@
+export const SIGN_UP = "/signup";
+export const SIGN_IN = "/signin";
+export const LANDING = "/";
+export const HOME = "/home";
+export const ACCOUNT = "/account";
+export const PASSWORD_FORGET = "/pw-forget";
+export const PROJECT1 = "/project-1";
+export const PROJECT2 = "/project-2";
+export const PROJECT3 = "/project-3";
+export const PROJECT4 = "/project-4";
+export const PROJECT5 = "/project-5";
+export const PROJECT6 = "/project-6";

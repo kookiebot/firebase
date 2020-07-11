@@ -1,0 +1,66 @@
+@keyframes float {
+  0% {
+    transform: translate(0px, 0px);
+ }
+  50% {
+    transform: translate(0px, 25px);
+ }
+  100% {
+    transform: translate(0px, 0px);
+ }
+}
+a.social-icon:nth-child(0) {
+  display: inline-block;
+  animation: float 4s infinite ease-in-out;
+  animation-delay: 0s;
+}
+a.social-icon:nth-child(1) {
+  display: inline-block;
+  animation: float 4s infinite ease-in-out;
+  animation-delay: 0.5s;
+}
+a.social-icon:nth-child(2) {
+  display: inline-block;
+  animation: float 4s infinite ease-in-out;
+  animation-delay: 1s;
+}
+a.social-icon:nth-child(3) {
+  display: inline-block;
+  animation: float 4s infinite ease-in-out;
+  animation-delay: 1.5s;
+}
+a.social-icon:nth-child(4) {
+  display: inline-block;
+  animation: float 4s infinite ease-in-out;
+  animation-delay: 2s;
+}
+a.social-icon:nth-child(5) {
+  display: inline-block;
+  animation: float 4s infinite ease-in-out;
+  animation-delay: 2.5s;
+}
+a.social-icon:nth-child(6) {
+  display: inline-block;
+  animation: float 4s infinite ease-in-out;
+  animation-delay: 3s;
+}
+a.social-icon:nth-child(7) {
+  display: inline-block;
+  animation: float 4s infinite ease-in-out;
+  animation-delay: 3.5s;
+}
+
+.icons {
+  margin-top: 40px;
+  text-align: center;
+}
+a.social-icon {
+  font-size: 26px;
+  color:#ffffff;
+  padding: 3px 2px;
+  margin: 2px 3px;
+  transition: all 0.3s ease;
+}
+a.social-icon:hover {
+  color: #ffffff;
+}

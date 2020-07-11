@@ -1,0 +1,11 @@
+a#linkProject{
+	font-size: 14pt;
+	color: white;
+	padding-right: 15px;
+}
+
+a#linkProject:hover{
+	color:blue;
+	border-bottom: 3pt solid yellow;
+
+}

@@ -1,0 +1,23 @@
+#projectcase1:hover ~ #hero-background {
+    background-image:url('https://ivang-design.com/alke/img/1.jpg');
+    background-size: 100%;
+ }
+
+#two:hover ~ #case-2 {
+    display:block;
+ }
+
+#three:hover ~ #hero-background {
+    background-image:url('https://ivang-design.com/alke/img/2.jpg');
+}
+#four:hover ~ #hero-background {
+    background-image:url('https://ivang-design.com/alke/img/3.jpg');
+}
+
+#five:hover ~ #hero-background {
+    background-image:url('https://ivang-design.com/alke/img/4.jpg');
+}
+
+#six:hover ~ #hero-background {
+    background-image:url('https://ivang-design.com/alke/img/5.jpg');
+}

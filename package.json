@@ -1,0 +1,39 @@
+{
+  "name": "react-firebase-authentication",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-icons": "^1.0.0-alpha5",
+    "firebase": "^4.8.0",
+    "git": "^0.1.5",
+    "gsap": "^3.3.4",
+    "jquery": "^3.5.1",
+    "react": "^16.5.2",
+    "react-bootstrap": "^1.1.0",
+    "react-dom": "^16.5.2",
+    "react-gsap": "^2.2.1",
+    "react-image-lightbox": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.4",
+    "react-social-login-buttons": "^2.1.2",
+    "react-thumbnail": "^1.0.0",
+    "reactstrap": "^6.5.0",
+    "sass": "^1.26.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

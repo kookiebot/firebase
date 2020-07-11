@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Kaye So Kua</title>
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <meta name="description"
+        content="Kaye So Kua, newbie programmer, seasoned multimedia designer from Metro Manila." />
+    <meta name="author" content="IG Design">
+    <meta name="keywords"
+        content="ig design, website, design, html5, css3, jquery, creative, clean, animated, portfolio, blog, one-page, multi-page, corporate, business," />
+    <meta property="og:title"
+        content="Kaye So Kua, 27, python and full stack developer, from Metro Manila. Former multimedia designer." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:width" content="470" />
+    <meta property="og:image:height" content="246" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description"
+        content="Kaye So Kua, 27, python and full stack developer, from Metro Manila. Former multimedia designer." />
+
+    <!-- Mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#212121" />
+    <meta name="msapplication-navbutton-color" content="#212121" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#212121" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/custom.css" />
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/animsition.min.css" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="./favicon.png">
+
+</head>
+
+<body class="background-whiteglass">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <div class="section padding-top-bottom-big over-hide background-amber">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 text-center">
+                    <a href="mailto:learnwithkaye@gmail.com?subject=Website%20Enquiry"
+                        class="cursor-link animsition-link">
+                        <div class="project-link-wrap">
+                            <p>Let's meet over coffee? ☕</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section padding-top-bottom-small background-black">
+        <div class="container-fluid px-5">
+            <div class="row">
+                <div class="col-md-6 footer text-center text-md-left">
+                    <p>2020 © <a href="https://kayesokua.com" class="cursor-link">Kaye So
+                            Kua</a></p>
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0 text-center">
+                    <div class="social-wrap on-footer">
+                        Find me elsewhere
+                        <ul>
+                            <li><a href="https://instagram.com/kayekassandra" class="cursor-link"><i
+                                        class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://linkedin.com/in/kayekassandra" target="_blank" class="cursor-link"><i
+                                        class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="https://behance.net/in/kayekassandra" target="_blank" class="cursor-link"><i
+                                        class="fa fa-behance" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function heroBackgrounds() {
+            document.getElementById("caseStudy1").onMouseOver = function () { mouseProject1() };
+            document.getElementById("caseStudy2").onMouseOver = function () { mouseProject2() };
+            document.getElementById("caseStudy3").onMouseOver = function () { mouseProject3() };
+            document.getElementById("caseStudy4").onMouseOver = function () { mouseProject4() };
+            document.getElementById("caseStudy5").onMouseOver = function () { mouseProject5() };
+            document.getElementById("caseStudy6").onMouseOver = function () { mouseProject6() };
+        }
+        window.onload = heroBackgrounds;
+
+        function mouseProject1() {
+            document.getElementById("caseStudyDesc1").classList.add("show");
+            document.getElementById("caseStudyDesc1").classList.remove("hide");
+
+            document.getElementById("caseStudyDesc2").classList.remove("show");
+            document.getElementById("caseStudyDesc2").classList.add("hide");
+            document.getElementById("caseStudyDesc3").classList.remove("show");
+            document.getElementById("caseStudyDesc3").classList.add("hide");
+            document.getElementById("caseStudyDesc4").classList.remove("show");
+            document.getElementById("caseStudyDesc4").classList.add("hide");
+            document.getElementById("caseStudyDesc5").classList.remove("show");
+            document.getElementById("caseStudyDesc5").classList.add("hide");
+            document.getElementById("caseStudyDesc6").classList.remove("show");
+            document.getElementById("caseStudyDesc6").classList.add("hide");
+        }
+        function mouseProject2() {
+            document.getElementById("caseStudyDesc2").classList.remove("hide");
+            document.getElementById("caseStudyDesc2").classList.add("show");
+
+            document.getElementById("caseStudyDesc1").classList.remove("show");
+            document.getElementById("caseStudyDesc1").classList.add("hide");
+            document.getElementById("caseStudyDesc3").classList.remove("show");
+            document.getElementById("caseStudyDesc3").classList.add("hide");
+            document.getElementById("caseStudyDesc4").classList.remove("show");
+            document.getElementById("caseStudyDesc4").classList.add("hide");
+            document.getElementById("caseStudyDesc5").classList.remove("show");
+            document.getElementById("caseStudyDesc5").classList.add("hide");
+            document.getElementById("caseStudyDesc6").classList.remove("show");
+            document.getElementById("caseStudyDesc6").classList.add("hide");
+        }
+        function mouseProject3() {
+            document.getElementById("caseStudyDesc3").classList.remove("hide");
+            document.getElementById("caseStudyDesc3").classList.add("show");
+
+            document.getElementById("caseStudyDesc1").classList.remove("show");
+            document.getElementById("caseStudyDesc1").classList.add("hide");
+            document.getElementById("caseStudyDesc2").classList.remove("show");
+            document.getElementById("caseStudyDesc2").classList.add("hide");
+            document.getElementById("caseStudyDesc4").classList.remove("show");
+            document.getElementById("caseStudyDesc4").classList.add("hide");
+            document.getElementById("caseStudyDesc5").classList.remove("show");
+            document.getElementById("caseStudyDesc5").classList.add("hide");
+            document.getElementById("caseStudyDesc6").classList.remove("show");
+            document.getElementById("caseStudyDesc6").classList.add("hide");
+        }
+        function mouseProject4() {
+            document.getElementById("caseStudyDesc4").classList.remove("hide");
+            document.getElementById("caseStudyDesc4").classList.add("show");
+
+            document.getElementById("caseStudyDesc1").classList.remove("show");
+            document.getElementById("caseStudyDesc1").classList.add("hide");
+            document.getElementById("caseStudyDesc2").classList.remove("show");
+            document.getElementById("caseStudyDesc2").classList.add("hide");
+            document.getElementById("caseStudyDesc3").classList.remove("show");
+            document.getElementById("caseStudyDesc3").classList.add("hide");
+            document.getElementById("caseStudyDesc5").classList.remove("show");
+            document.getElementById("caseStudyDesc5").classList.add("hide");
+            document.getElementById("caseStudyDesc6").classList.remove("show");
+            document.getElementById("caseStudyDesc6").classList.add("hide");
+        }
+
+        function mouseProject5() {
+            document.getElementById("caseStudyDesc5").classList.remove("hide");
+            document.getElementById("caseStudyDesc5").classList.add("show");
+
+            document.getElementById("caseStudyDesc1").classList.remove("show");
+            document.getElementById("caseStudyDesc1").classList.add("hide");
+            document.getElementById("caseStudyDesc2").classList.remove("show");
+            document.getElementById("caseStudyDesc2").classList.add("hide");
+            document.getElementById("caseStudyDesc3").classList.remove("show");
+            document.getElementById("caseStudyDesc3").classList.add("hide");
+            document.getElementById("caseStudyDesc4").classList.remove("show");
+            document.getElementById("caseStudyDesc4").classList.add("hide");
+            document.getElementById("caseStudyDesc6").classList.remove("show");
+            document.getElementById("caseStudyDesc6").classList.add("hide");
+        }
+
+        function mouseProject6() {
+            document.getElementById("caseStudyDesc6").classList.remove("hide");
+            document.getElementById("caseStudyDesc6").classList.add("show");
+
+            document.getElementById("caseStudyDesc1").classList.remove("show");
+            document.getElementById("caseStudyDesc1").classList.add("hide");
+            document.getElementById("caseStudyDesc2").classList.remove("show");
+            document.getElementById("caseStudyDesc2").classList.add("hide");
+            document.getElementById("caseStudyDesc3").classList.remove("show");
+            document.getElementById("caseStudyDesc3").classList.add("hide");
+            document.getElementById("caseStudyDesc5").classList.remove("show");
+            document.getElementById("caseStudyDesc5").classList.add("hide");
+            document.getElementById("caseStudyDesc4").classList.remove("show");
+            document.getElementById("caseStudyDesc4").classList.add("hide");
+        }
+
+    </script>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/plugins.js"></script>
+    <script src="./js/custom.js"></script>
+
+
+</body>
+
+
+
+</html>
