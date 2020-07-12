@@ -1,6 +1,3 @@
-
-
-
 function mouseProject1() {
   document.getElementById("caseStudyDesc1").classList.add("show");
   document.getElementById("caseStudyDesc1").classList.remove("hide");

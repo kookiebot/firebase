@@ -147,21 +147,21 @@ class Project3 extends Component {
                 </a>
               </div>
               <div class="col-md-6 padding-top text-center">
-                <a href="/project-2" class="cursor-link animsition-link">
+              <Link to={routes.PROJECT2} className="cursor-link animsition-link color-black">
                   <div class="project-link-wrap">
                     <p class="color-lightgray"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> 02</p>
                     <h4 style={{color:"#303030"}}>Online Exhibition <br /> Marketing</h4>
 
                   </div>
-                </a>
+                </Link>
               </div>
               <div class="col-md-6 padding-top text-center">
-                <a href="/project-4" class="cursor-link animsition-link">
+              <Link to={routes.PROJECT4} className="cursor-link animsition-link color-black">
                   <div class="project-link-wrap">
                     <p class="color-cornflowerblue">04 <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
                     <h4 style={{color:"#303030"}}>Superhero Portal</h4>
                   </div>
-                </a>
+                </Link>
               </div>
 
 

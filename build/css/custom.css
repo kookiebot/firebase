@@ -1,0 +1,40 @@
+a#linkProjects, a#linkProjects:active,
+a#linkAccount, a#linkAccount:active{
+	font-size: 14pt;
+	color: white;
+    margin-right: 15px;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+a#linkProjects:hover, a#linkAccount:hover{
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: crosshair;
+}
+
+a#linkProjects:hover{
+    border-bottom: 3pt solid white;
+}
+
+a#linkAccount:hover{
+    border-bottom: 3pt solid white;
+}
+
+a#linkRegister, a#linkRegister:active{
+    border-bottom: 1pt solid white;
+    text-decoration: none;
+    color: white;
+}
+a#linkRegister:hover{
+   font-style: italic;
+}
+
+.btn {
+    border-radius:0!Important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-transform: uppercase;
+}

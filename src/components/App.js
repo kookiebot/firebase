@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import Lightbox from 'react-image-lightbox'
 import 'react-image-lightbox/style.css';
-
-
 import { firebase } from "../firebase";
 import * as routes from "../constants/routes";
 

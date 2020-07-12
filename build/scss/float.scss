@@ -1,0 +1,60 @@
+$i: 0;
+$icons: 7;
+
+@keyframes float {
+  0% {
+       transform: translate(0px, 0px);
+   }
+
+   50% {
+       transform: translate(0px,16px);
+   }
+
+   100% {
+       transform: translate(0px, 0px);
+   }
+}
+
+@while $i <= $icons {
+    a:nth-child(#{$i}) { 
+      display: inline-block;
+      animation: float 4s infinite ease-in-out;
+      animation-delay: #{$i/2}s;
+    }
+    $i: $i + 1;
+  }
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  color: #666;
+  background: #f5f8fa;
+}
+
+.content {
+  position: relative;
+  top: 35%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+.icons {
+  margin-top: 40px;
+  text-align: center;
+}
+a {
+  font-size: 26px;
+  color: pink;
+  padding: 3px 2px;
+  margin: 2px 3px;
+  transition: all 0.3s ease;
+ 
+  &:hover {
+    color: #80FFDB;
+  }
+}

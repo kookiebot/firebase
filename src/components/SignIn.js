@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Button, Form, FormGroup, Label, Input, Alert } from "reactstrap";
 import { FacebookLoginButton } from "react-social-login-buttons";
-import logo from "./logo.svg";
-
 import { withRouter } from "react-router-dom";
 
 import { SignUpLink } from "./SignUp";

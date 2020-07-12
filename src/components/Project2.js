@@ -352,21 +352,21 @@ Marketing for the VIP category is mostly dynamic and involves more than e-mail m
           <div class="container-fluid padding-top-bottom-small">
             <div class="row">
               <div class="col-md-6 padding-top text-center">
-                <a href="/project-1" class="cursor-link animsition-link">
+              <Link to={routes.PROJECT1} className="cursor-link animsition-link color-black">
                   <div class="project-link-wrap">
                     <p class="color-lightgray"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> 01</p>
                     <h4 style={{color:"#303030"}}>The Buzz <br /> Staff Magazine</h4>
 
                   </div>
-                </a>
+                </Link>
               </div>
               <div class="col-md-6 padding-top text-center">
-                <a href="/project-3" class="cursor-link animsition-link">
+              <Link to={routes.PROJECT3} className="cursor-link animsition-link color-black">
                   <div class="project-link-wrap">
                     <p class="color-cornflowerblue">03 <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
                     <h4 style={{color:"#303030"}}>CODE Challenge <br /> Volunteer365</h4>
                   </div>
-                </a>
+                </Link>
               </div>
 
             </div>

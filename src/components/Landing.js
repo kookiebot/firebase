@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import * as routes from "../constants/routes";
-
 import './MainStyle.css';
 
 
@@ -48,8 +47,8 @@ const LandingPage = () => (
 							</div>
 						</div>
 						<div class="col-md-7 text-center" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-							<p class="mb-0 pb-0 lead-q"><em>"When I make plans, I think big. When I make progress, I think small."</em></p>
-							<h6 class="mt-5">James Clear</h6>
+							<p class="mb-0 pb-0 lead-q color-black"><em>"When I make plans, I think big. When I make progress, I think small."</em></p>
+					
 						</div>
 					</div>
 				</div>

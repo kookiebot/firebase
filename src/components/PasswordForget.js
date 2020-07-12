@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Button, Form, FormGroup, Label, Input, Alert } from "reactstrap";
+import { Button, Form, FormGroup, Input, Alert } from "reactstrap";
 
 import { auth } from "../firebase";
 import * as routes from "../constants/routes";

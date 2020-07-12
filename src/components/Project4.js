@@ -86,21 +86,21 @@ class Project4 extends Component {
           <div class="container padding-top-bottom-small">
             <div class="row">
               <div class="col-md-6 padding-top text-center">
-                <a href="/project-3" class="cursor-link animsition-link">
+              <Link to={routes.PROJECT3} className="cursor-link animsition-link color-black">
                   <div class="project-link-wrap">
                     <p class="color-lightgray"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> 03</p>
                     <h4 style={{color:"#303030"}}>CODE Challenge <br /> Volunteer365</h4>
 
                   </div>
-                </a>
+                </Link>
               </div>
               <div class="col-md-6 padding-top text-center">
-                <a href="/project-5" class="cursor-link animsition-link">
+              <Link to={routes.PROJECT5} className="cursor-link animsition-link color-black">
                   <div class="project-link-wrap">
                     <p class="color-cornflowerblue">05 <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
                     <h4 style={{color:"#303030"}}>Maxicare <br />Locator App</h4>
                   </div>
-                </a>
+                </Link>
               </div>
 
             </div>
